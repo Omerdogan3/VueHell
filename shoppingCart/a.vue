@@ -11,7 +11,7 @@ window.addEventListener('load',()=>{
 			fetch('./data.json')
 				.then((res)=>{ return res.json() })
 				.then((res)=>{
-					this.isLoading = false; 
+					this.isLoading = false;
 					console.log(res);
 				})
 		}
